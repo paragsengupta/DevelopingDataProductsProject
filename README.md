@@ -9,11 +9,11 @@ In the 4 years spanning January 2014 to December 2017, there were as many as 13,
 
 This project on Developing Data Products as part of the Coursera Data Science Specialization covers this data.
 
-The app developed for the first part of the assignment demo is available on shinyapp.io at:
+- The app developed for the first part of the assignment demo is available on shinyapp.io at:
 https://paragsengupta.shinyapps.io/gtaautotheft/ 
-The source codes for the Shiny ui.R and server.R files are available on the GitHub repo:
+- The source codes for the Shiny ui.R and server.R files are available on the GitHub repo:
 https://github.com/paragsengupta/DevelopingDataProductsProject
-Presentation & Functionality:
+- Presentation & Functionality:
 http://rpubs.com/Laughing_Lamp/Shiny-Application-and-Reproducible-Pitch
 
 ## User Guide on Application:
