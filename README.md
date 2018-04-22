@@ -31,6 +31,7 @@ The application opens an interactive page with various options available in the 
 
 ### Menu Option: Map
 This opens up an interactive map of the Greater Toronto Area. The user can use the ‘slider’ on the left panel to choose the range of years to view the data on the interactive map. The data on the map will change based on the start and end years as chosen on the slider. Within the map, the user can zoom in or zoom out with the ‘+ / -‘ buttons respectively. 
+
 To see details of the reported crime, the user can click any blue circle on the map. It will show the name of the area with the hood ID as used by the Toronto Police Service, the actual date the theft was reported, the premise type of the theft and the geographical coordinates of the location.
 
 ### Menu Option: Chart
