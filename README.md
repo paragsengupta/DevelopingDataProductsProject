@@ -32,10 +32,12 @@ The application opens an interactive page with various options available in the 
 ### Menu Option: Map
 This opens up an interactive map of the Greater Toronto Area. The user can use the ‘slider’ on the left panel to choose the range of years to view the data on the interactive map. The data on the map will change based on the start and end years as chosen on the slider. Within the map, the user can zoom in or zoom out with the ‘+ / -‘ buttons respectively. 
 
-To see details of the reported crime, the user can click any blue circle on the map. It will show the name of the area with the hood ID as used by the Toronto Police Service, the actual date the theft was reported, the premise type of the theft and the geographical coordinates of the location.
+As an additional filter for the map, the user can choose whether to view All Neighbourhoods or Pick One of the Neighbourhoods from the dropdown. If Pick One is selected, another dropdown shows up with the complete list of all Neighbourhoods. If a specific Neighbourhood is chosen from the dropdown, the details of the Interactive Map changes to match that selected Neighbourhood.
+
+Within the Interactive Map, to see details of the reported crime, the user can click any blue circle on the map. It will show the Neighbourhood name with the hood ID as used by the Toronto Police Service, the actual date the theft was reported, the premise type of the theft and the geographical coordinates of the location.
 
 ### Menu Option: Chart
-The next option is the Chart which shows three different types of charts. The user can make the choice using the radio buttons on the left side panel. Based on the user choice, the appropriate histogram is displayed. On hovering the mouse over the histogram bars, the auto theft crime count can be seen displayed.
+The next option is Chart which shows the auto theft data through four different types of charts (Premise Type, Occurrence Day of Week, Occurrence Month and Neighbourhood). The user can make the choice using the radio buttons on the left side panel and then click on Chart on the Menu bar. Based on the user choice, the appropriate chart or plot is displayed. On hovering the mouse over the bars, the auto theft crime count can be seen displayed.
 
 ### Menu Option: Data Table
 This option provides a complete dump of 13,480 auto theft information in Greater Toronto Area. The user can search for specific data points using the Search dialog box. Every column representing a data variable can be sorted in ascending or descending order by clicking on the small arrows next to the variable name.
