@@ -1,7 +1,7 @@
 # DevelopingDataProductsProject
 Shiny Application and Reproducible Pitch - Auto Theft in Toronto
-Author: Parag Sengupta
-Date: April 23, 2018
+  Author: Parag Sengupta
+  Date: April 23, 2018
 
 ## Introduction:
 
