@@ -13,7 +13,7 @@ knitr::opts_chunk$set(echo = FALSE)
 # **Introduction - Auto Theft in Toronto**
 
 This presentation is for a **project on Developing Data Products** as part of the Coursera Data Science Specialization.<br><br>
-Analysis on: **Auto Theft in Toronto (2014-2017). **<br>
+Analysis on: **Auto Theft in Toronto (2014-2017).**<br>
 - 13,480 data records of which 13,435 pertains to the 2014-2017 period.<br><br>
 Data Source: **Toronto Police Service, Public Safety Data Portal:** <br>
     http://data.torontopolice.on.ca/datasets/auto-theft-2014-to-2017 <br><br>
@@ -23,8 +23,9 @@ Data Source: **Toronto Police Service, Public Safety Data Portal:** <br>
 **Source codes (Shiny ui.R and server.R) on GitHub repository:**<br>
     https://github.com/paragsengupta/DevelopingDataProductsProject <br><br>
 **Presentation & Functionality on GitHub repository:**<br>
-    https://github.com/paragsengupta/DevelopingDataProductsProject <br>
-    (_R Markdown Slidy Presentation was used instead of R Presentation to create this pitch as RStudio v1.1.442 gave a message stating appshot of Shiny app objects - a key feature in this presentation - is not yet supported_)
+    https://github.com/paragsengupta/DevelopingDataProductsProject/myPresentationSlidy.Rmd <br>
+(_R Markdown Slidy Presentation was used instead of R Presentation to create this pitch as RStudio v1.1.442 gave a message stating appshot of Shiny app objects - a key feature in this presentation - is not yet supported. As a continuation, a web version using R Presentation was created with Shiny app snapshort and published with RPubs_)<br>
+RPubs: http://rpubs.com/paragsengupta/AutoTheftGTA<br>
 
 # **Shiny App: Functionalities**
 
