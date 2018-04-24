@@ -17,7 +17,7 @@ This project on Developing Data Products as part of the Coursera Data Science Sp
 https://paragsengupta.shinyapps.io/gtaautotheft/ 
 - The source codes for the Shiny ui.R and server.R files are available on the GitHub repo:
 https://github.com/paragsengupta/DevelopingDataProductsProject
-- Presentation & Functionality:
+- Reproducible Pitch Presentation:
 http://rpubs.com/Laughing_Lamp/Shiny-Application-and-Reproducible-Pitch
 
 ## User Guide on Application:
