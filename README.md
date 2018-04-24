@@ -1,4 +1,4 @@
-# DevelopingDataProductsProject
+# Developing Data Products Project
 Shiny Application and Reproducible Pitch - Auto Theft in Toronto
 
   Author: Parag Sengupta
