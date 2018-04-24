@@ -1,0 +1,97 @@
+---
+title: "Developing Data Products <br><br> Project for Coursera Data Science Specialication <br><br> Auto Theft in Toronto"
+author: "Parag Sengupta"
+date: "April 24, 2018"
+output: slidy_presentation
+runtime: shiny
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# **Introduction - Auto Theft in Toronto**
+
+This presentation is for a **project on Developing Data Products** as part of the Coursera Data Science Specialization.<br><br>
+Analysis on: **Auto Theft in Toronto (2014-2017).**<br>
+- 13,480 data records of which 13,435 pertains to the 2014-2017 period.<br><br>
+Data Source: **Toronto Police Service, Public Safety Data Portal:** <br>
+    http://data.torontopolice.on.ca/datasets/auto-theft-2014-to-2017 <br><br>
+**Related links and file locations for this presentation** <br><br>
+**App on shinyapps.io:** <br>
+    https://paragsengupta.shinyapps.io/gtaautotheft/ <br><br>
+**Source codes (Shiny ui.R and server.R) on GitHub repository:**<br>
+    https://github.com/paragsengupta/DevelopingDataProductsProject <br><br>
+**Presentation & Functionality on GitHub repository:**<br>
+    https://github.com/paragsengupta/DevelopingDataProductsProject <br>
+    (_R Markdown Slidy Presentation was used instead of R Presentation to create this pitch as RStudio v1.1.442 gave a message stating appshot of Shiny app objects - a key feature in this presentation - is not yet supported_)
+
+# **Shiny App: Functionalities**
+
+### **Main Panel:**
+
+* Main Menu: 
+
+    + Map
+        
+    + Chart
+        
+    + Data Table
+
+- Main Display Zone: below the Main Menu<br><br>
+
+### **SideBar Panel:**
+
+- Slider to choose the year range for the Interactive Map
+
+- Dropdown to choose whether to see All Neighbourhoods or Pick One
+
+    + If Pick One chosen, Dropdown to choose the specific Neighbourhood by name
+
+- Radio buttons for choose the Chart type to display in Main Display Zone
+
+# **Shiny App in Real Action**
+*Scroll down to see the complete application*
+```{r, warning=FALSE, message=FALSE, echo=FALSE}
+library(shiny)
+library(shinythemes)
+library(leaflet)
+library(plotly)
+library(DT)
+server <- setwd("D:/Professional_n_Knowledge/Data Science John Hopkins/9 Developing Data Products/CourseProject/GTAAutoTheft")
+```
+
+```{r, warning=FALSE, message=FALSE, echo=FALSE}
+shinyAppDir("D:/Professional_n_Knowledge/Data Science John Hopkins/9 Developing Data Products/CourseProject/GTAAutoTheft/", options = list(height=550))
+```
+
+# **Key Data Points (Variables) in the Auto Theft Data**
+
+- Neighbourhoods: 
+
+    + 140 different neighbourhoods included in the data<br>
+
+        - **West Humber-Clairville has the highest auto theft occurrences**
+
+- Premise Types: 
+
+    + _3 key premise types, 1 to indicate outside and 1 for everything else_<br>
+
+    + Apartment
+    
+    + Commercial
+    
+    + House
+    
+    + Outside
+    
+        - **Highest auto theft occurences reported from Outside**
+    
+    + Other
+    
+- Month and Day of Occurrence:
+
+    + **Friday reported the highest auto theft in the week**
+    
+    + **October is the month reporting the highest auto thefts in the year**
+    
