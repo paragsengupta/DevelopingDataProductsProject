@@ -13,7 +13,7 @@ knitr::opts_chunk$set(echo = FALSE)
 # **Introduction - Auto Theft in Toronto**
 
 This presentation is for a **project on Developing Data Products** as part of the Coursera Data Science Specialization.<br><br>
-Analysis on: **Auto Theft in Toronto (2014-2017).**<br>
+Analysis on: **Auto Theft in Toronto (2014-2017). **<br>
 - 13,480 data records of which 13,435 pertains to the 2014-2017 period.<br><br>
 Data Source: **Toronto Police Service, Public Safety Data Portal:** <br>
     http://data.torontopolice.on.ca/datasets/auto-theft-2014-to-2017 <br><br>
