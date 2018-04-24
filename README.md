@@ -19,7 +19,8 @@ https://paragsengupta.shinyapps.io/gtaautotheft/
 https://github.com/paragsengupta/DevelopingDataProductsProject
 - Reproducible Pitch Presentation:<br>
 http://rpubs.com/Laughing_Lamp/Shiny-Application-and-Reproducible-Pitch<br>
-(_R Markdown Slidy Presentation was used instead of R Presentation to create this pitch as RStudio v1.1.442 gave a message stating appshot of Shiny app objects - a key feature in this presentation - is not yet supported_) 
+(_R Markdown Slidy Presentation was used instead of R Presentation to create this pitch as RStudio v1.1.442 gave a message stating appshot of Shiny app objects - a key feature in this presentation - is not yet supported. As a continuation, a web version using R Presentation was created with Shiny app snapshort and published with RPubs_)<br>
+RPubs: http://rpubs.com/paragsengupta/AutoTheftGTA<br> 
 
 ## User Guide on Application:
 
