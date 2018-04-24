@@ -18,7 +18,7 @@ https://paragsengupta.shinyapps.io/gtaautotheft/
 - The source codes for the Shiny ui.R and server.R files are available on the GitHub repo:
 https://github.com/paragsengupta/DevelopingDataProductsProject
 - Reproducible Pitch Presentation:<br>
-http://rpubs.com/Laughing_Lamp/Shiny-Application-and-Reproducible-Pitch
+http://rpubs.com/Laughing_Lamp/Shiny-Application-and-Reproducible-Pitch<br>
 (_R Markdown Slidy Presentation was used instead of R Presentation to create this pitch as RStudio v1.1.442 gave a message stating appshot of Shiny app objects - a key feature in this presentation - is not yet supported_) 
 
 ## User Guide on Application:
