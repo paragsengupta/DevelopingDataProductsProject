@@ -28,7 +28,7 @@ https://paragsengupta.shinyapps.io/gtaautotheft/
 
 Through the application, the user can view the crime reported data on an interactive map, view charts which show the trend of historical data as well as a filterable dump of the complete data for the reported period.
 
-The application opens an interactive page with various options available in the top row Menu (Map, Charts, Data Table) to see the information about reported crimes, along with some choices to filter the visuals. The default landing page is the Interactive Map with years 2000 to 2009 displayed.
+The application opens an interactive page with various options available in the top row Menu (Map, Charts, Data Table) to see the information about reported crimes, along with some choices to filter the visuals. The default landing page is the Interactive Map with years 2010 to 2013 displayed.
 
 ### Menu Option: Map
 This opens up an interactive map of the Greater Toronto Area. The user can use the ‘slider’ on the left panel to choose the range of years to view the data on the interactive map. The data on the map will change based on the start and end years as chosen on the slider. The slider also has a Play option with the small blue play icon which refreshes the map automatically with a 3-years bundle. Within the map, the user can zoom in or zoom out with the ‘+ / -‘ buttons respectively. 
