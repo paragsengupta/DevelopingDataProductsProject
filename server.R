@@ -1,6 +1,6 @@
 # library(shiny); library(shinythemes); library(leaflet); library(plotly); library(DT)
 
-setwd("D:/Professional_n_Knowledge/Data Science John Hopkins/9 Developing Data Products/CourseProject/GTAAutoTheft")
+# setwd("D:/Professional_n_Knowledge/Data Science John Hopkins/9 Developing Data Products/CourseProject/GTAAutoTheft")
 # Identify the separator in .csv
 # L <- readLines("GTAAutuTheft20142017.csv", n = 1)
 # if (grepl(";", L)) read.csv2("GTAAutuTheft20142017.csv") else read.csv("GTAAutuTheft20142017.csv")

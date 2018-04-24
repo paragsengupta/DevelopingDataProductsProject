@@ -1,6 +1,10 @@
 # library(ggplot2); library(leaflet); library(dplyr); library(tidyr); library(curl); library(lubridate); library(shiny); library(shinythemes); library(leaflet); library(plotly); library(DT)
 
-library(shiny); library(shinythemes);  library(leaflet); library(plotly); library(DT)
+library(shiny)
+library(shinythemes)
+library(leaflet)
+library(plotly)
+library(DT)
 
 fluidPage(theme = shinytheme("flatly"),
           titlePanel("Auto Theft in Toronto"), align="center",
